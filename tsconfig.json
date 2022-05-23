@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 {
   "compilerOptions": {
     "target": "esnext",
@@ -10,6 +12,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "noImplicitThis": false,
     "baseUrl": ".",
     "types": [
       "webpack-env"
